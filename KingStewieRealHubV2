@@ -1,1 +1,891 @@
-do local v0=tonumber;local v1=string.byte;local v2=string.char;local v3=string.sub;local v4=string.gsub;local v5=string.rep;local v6=table.concat;local v7=table.insert;local v8=math.ldexp;local v9=getfenv or function()return _ENV;end ;local v10=setmetatable;local v11=pcall;local v12=select;local v13=unpack or table.unpack ;local v14=tonumber;local function v15(v16,v17,...)local v18=1;local v19;v16=v4(v3(v16,5),"..",function(v20)if (v1(v20,2)==79) then local v72=0;while true do if (v72==0) then v19=v0(v3(v20,1,1));return "";end end else local v73=0;local v74;while true do if (0==v73) then v74=v2(v0(v20,16));if v19 then local v112=v5(v74,v19);v19=nil;return v112;else return v74;end break;end end end end);local function v21(v22,v23,v24)if v24 then local v75=861 -(417 + 444) ;local v76;while true do if (v75==0) then v76=(v22/((2 -(514 -(277 + 237)))^(v23-(3 -2))))%((4 -2)^(((v24-1) -(v23-((1208 -(144 + 1061)) -2))) + 1)) ;return v76-(v76%(778 -(447 + 330))) ;end end else local v77=0;local v78;while true do if (v77==((0 + 0) -0)) then v78=(1599 -(782 + 815))^(v23-((1 -0) -0)) ;return (((v22%(v78 + v78))>=v78) and (1590 -(736 + 853))) or (1232 -(179 + 1053)) ;end end end end local function v25()local v38=0 -0 ;local v39;while true do if (v38==(892 -(34 + 857))) then return v39;end if (v38==0) then v39=v1(v16,v18,v18);v18=v18 + 1 ;v38=1619 -(563 + 470 + 585) ;end end end local function v26()local v40,v41=v1(v16,v18,v18 + (5 -3) );v18=v18 + (782 -(430 + 350)) ;return (v41 * (1501 -(465 + 780))) + v40 ;end local function v27()local v42,v43,v44,v45=v1(v16,v18,v18 + (1401 -(483 + 915)) );v18=v18 + (1152 -(1014 + 134)) ;return (v45 * (16779091 -((6522 -4788) + 141))) + (v44 * (200908 -135372)) + (v43 * (1164 -(780 + 128))) + v42 ;end local function v28()local v46=1566 -(119 + 1447) ;local v47;local v48;local v49;local v50;local v51;local v52;while true do if (v46==((1 -0) + 0)) then v49=1;v50=(v21(v48,1068 -(721 + 346) ,58 -38 ) * ((603 -(192 + 409))^(63 -31))) + v47 ;v46=2;end if (v46==(0 + 0)) then v47=v27();v48=v27();v46=1891 -((5063 -3984) + 811) ;end if (v46==(340 -(327 + 10))) then if (v51==(0 + 0)) then if (v50==0) then return v52 * (0 + 0) ;else v51=2 -1 ;v49=0 -0 ;end elseif (v51==(777 + 1270)) then return ((v50==(0 + 0 + 0)) and (v52 * ((4 -3)/(0 -0)))) or (v52 * NaN) ;end return v8(v52,v51-(795 + 228) ) * (v49 + (v50/((1 + 1)^(52 + 0)))) ;end if (v46==(1 + 1)) then v51=v21(v48,274 -(161 + (133 -41)) ,31);v52=((v21(v48,77 -45 )==(1 -0)) and  -(531 -((1787 -(347 + 1247)) + 337))) or 1 ;v46=3;end end end local function v29(v30)local v53;if  not v30 then v30=v27();if (v30==0) then return "";end end v53=v3(v16,v18,(v18 + v30) -(2 -1) );v18=v18 + v30 ;local v54={};for v65=2 -1 , #v53 do v54[v65]=v2(v1(v3(v53,v65,v65)));end return v6(v54);end local v31=v27;local function v32(...)return {...},v12("#",...);end local function v33()local v55=112 -(13 + 99) ;local v56;local v57;local v58;local v59;local v60;local v61;while true do if (v55==(1 + 0)) then local v89=0;while true do if (v89==(787 -(294 + 492))) then v61={};v55=2;break;end if (v89~=(0 + 0)) then else local v111=0 -0 ;while true do if (v111==(4 -3)) then v89=1;break;end if (v111==(0 -0)) then v59={v56,v57,nil,v58};v60=v27();v111=956 -(728 + 227) ;end end end end end if ((1865 -(1864 + 1))~=v55) then else v56={};v57={};v58={};v55=1;end if (v55~=3) then else local v90=0 + 0 ;while true do local v97=0 -0 ;while true do if (v97~=(0 + 0)) then else if (v90==(1443 -(1055 + 387))) then return v59;end if (v90~=(0 + 0)) then else local v114=231 -(113 + 118) ;while true do if (v114~=1) then else v90=1;break;end if (v114==(1975 -(1717 + 258))) then for v123=1 + 0 ,v27() do v57[v123-(3 -2) ]=v33();end for v125=1 + 0 ,v27() do v58[v125]=v27();end v114=1 + 0 ;end end end break;end end end end if (v55~=(2 -0)) then else for v98=483 -(406 + 76) ,v60 do local v99=0 + 0 ;local v100;local v101;local v102;local v103;while true do if (v99==(3 -2)) then v102=nil;v103=nil;v99=1 + 1 ;end if (v99~=(1806 -(86 + 1720))) then else local v113=437 -(270 + 167) ;while true do if (v113==(0 + 0)) then v100=0 + 0 ;v101=nil;v113=1;end if (v113~=1) then else v99=1 + 0 ;break;end end end if (v99==(3 -1)) then while true do if (v100==1) then v103=nil;while true do if (v101~=1) then else if (v102==(525 -(486 + 38))) then v103=v25()~=(0 + 0) ;elseif (v102==(3 -1)) then v103=v28();elseif (v102==(846 -(795 + 48))) then v103=v29();end v61[v98]=v103;break;end if (v101==0) then local v128=1530 -(1324 + 206) ;local v129;local v130;while true do if (v128==0) then v129=0;v130=nil;v128=1530 -(145 + 1384) ;end if (v128==(2 -1)) then while true do if (v129==(1465 -(1174 + 291))) then v130=0;while true do if (v130==(778 -(549 + 229))) then local v167=1844 -(1401 + 443) ;while true do if (v167~=(0 -0)) then else v102=v25();v103=nil;v167=521 -(31 + 489) ;end if (v167==(3 -2)) then v130=1 -0 ;break;end end end if (v130==(1 + 0)) then v101=1;break;end end break;end end break;end end end end break;end if (v100==0) then v101=0 -0 ;v102=nil;v100=1 -0 ;end end break;end end end v59[1330 -(784 + 543) ]=v25();for v104=4 -3 ,v27() do local v105=1053 -(439 + 614) ;local v106;while true do if (v105==(0 + 0)) then v106=v25();if (v21(v106,1168 -(530 + 637) ,1 -0 )==(0 -0)) then local v115=1908 -(1047 + 861) ;local v116;local v117;local v118;local v119;local v120;while true do if (v115==(744 -(444 + 300))) then v116=0 + 0 ;v117=nil;v115=58 -(5 + 52) ;end if (v115==(1 -0)) then v118=nil;v119=nil;v115=985 -(786 + 197) ;end if ((1 + 1)==v115) then v120=nil;while true do if (v116==(750 -(516 + 234))) then local v131=165 -(158 + 7) ;local v132;while true do if (v131==(0 + 0)) then v132=0 -0 ;while true do if (v132==(2 -1)) then v116=2 -1 ;break;end if (v132==(0 -0)) then local v164=0 -0 ;while true do if (v164==(1919 -(424 + 1495))) then v117=0 -0 ;v118=nil;v164=1;end if (v164==1) then v132=1;break;end end end end break;end end end if (v116==(1446 -(923 + 521))) then while true do if (v117~=(6 -4)) then else local v135=0 + 0 ;local v136;local v137;while true do if (v135~=(1760 -(73 + 1686))) then else while true do if (v136~=0) then else v137=0;while true do if (v137==(1 -0)) then v117=1675 -(733 + 939) ;break;end if (v137==0) then local v224=0 -0 ;while true do if (v224==(0 + 0)) then if (v21(v119,1 + 0 ,2 -1 )==1) then v120[2]=v61[v120[739 -(279 + 458) ]];end if (v21(v119,2 + 0 ,2 + 0 )==(1 + 0)) then v120[990 -(808 + 179) ]=v61[v120[6 -3 ]];end v224=1;end if (v224~=(1 + 0)) then else v137=3 -2 ;break;end end end end break;end end break;end if (v135==(0 -0)) then v136=0;v137=nil;v135=1 + 0 ;end end end if (v117==(1179 -(467 + 712))) then local v138=1941 -(463 + 1478) ;local v139;local v140;while true do if (v138==(0 + 0)) then v139=0 -0 ;v140=nil;v138=1196 -(380 + 815) ;end if (v138~=1) then else while true do if (v139==(664 -(93 + 571))) then v140=0;while true do if (v140==(0 + 0)) then local v225=0 -0 ;local v226;while true do if (v225==(0 + 0)) then v226=1117 -(570 + 547) ;while true do if ((1992 -(1001 + 991))==v226) then v118=v21(v106,1 + 1 ,4 -1 );v119=v21(v106,9 -5 ,6);v226=1 + 0 ;end if (v226==(4 -3)) then v140=1;break;end end break;end end end if (v140~=(2 -1)) then else v117=2 -1 ;break;end end break;end end break;end end end if (v117==(2 -1)) then local v141=0 + 0 ;while true do if (0~=v141) then else v120={v26(),v26(),nil,nil};if (v118==(0 + 0)) then local v201=0 + 0 ;while true do if (v201~=0) then else v120[3]=v26();v120[2 + 2 ]=v26();break;end end elseif (v118==1) then v120[7 -4 ]=v27();elseif (v118==(9 -7)) then v120[3]=v27() -(2^16) ;elseif (v118==(5 -2)) then local v235=0 -0 ;while true do if ((1371 -(1243 + 128))~=v235) then else v120[3]=v27() -((2 -0)^16) ;v120[1638 -(1198 + 436) ]=v26();break;end end end v141=1 -0 ;end if (v141==(1 + 0)) then v117=1504 -(1086 + 416) ;break;end end end if (v117~=3) then else if (v21(v119,3,3)==(23 -(10 + 12))) then v120[4]=v61[v120[2 + 2 ]];end v56[v104]=v120;break;end end break;end if ((1 + 0)==v116) then local v133=203 -(38 + 165) ;local v134;while true do if (v133~=0) then else v134=0;while true do if ((2 -1)==v134) then v116=2;break;end if (v134==(0 + 0)) then v119=nil;v120=nil;v134=1142 -(807 + 334) ;end end break;end end end end break;end end end break;end end end v55=8 -5 ;end end end local function v34(v35,v36,v37)local v62=v35[1];local v63=v35[2];local v64=v35[3];return function(...)local v67=1;local v68= -1;local v69={...};local v70=v12("#",...) -1 ;local function v71()local v79=v62;local v80=v63;local v81=v64;local v82=v32;local v83={};local v84={};local v85={};for v92=0,v70 do if ((v92>=v81) or ((945 + 228)>(17721 -13003))) then v83[v92-v81 ]=v69[v92 + (4 -3) ];else v85[v92]=v69[v92 + (2 -1) ];end end local v86=(v70-v81) + 1 ;local v87;local v88;while true do local v93=0 + 0 ;local v94;local v95;while true do if (((1703 + 2019 + 162)==(3855 + 29)) and ((1 + 0 + 0)==v93)) then while true do if ((v94==(0 -0)) or ((3533 -1067)>(240 + 3670))) then v95=0 + 0 ;while true do if (((17221 -12369)>(2259 + 825)) and (v95==(0 -0))) then local v121=0;local v122;while true do if ((v121==(0 -0)) or ((1084 -(334 + 109))>=2315)) then v122=22 -(6 + 1 + 15) ;while true do if (((104 + 4438)>(3816 -(78 + (3462 -1891)))) and (v122==(0 + 0))) then local v143=0 -0 ;while true do if (((2572 + 583)==(7325 -4170)) and (v143==1)) then v122=1 -0 ;break;end if ((v143==(0 -0)) or ((7055 -4361)>2826)) then v87=v79[v67];v88=v87[1 + 0 ];v143=(2 + 0) -1 ;end end end if (((1172 + 1298)<=4948) and (v122==(3 -2))) then v95=(1017 -(675 + 341)) + 0 ;break;end end break;end end end if ((v95==((439 + 361) -(580 + 219))) or ((2323 -(221 + 471))>(848 + 2183))) then if (((1861 -617)<=(3557 -(241 + 314))) and (v88<=(341 -(144 + 186)))) then if ((((5107 -3308) + 0)<=(6227 -2716)) and (v88<=5)) then if (((100 -72)<(511 + 2159)) and (v88<=(2 -0))) then if (((4336 + 453)==4789) and (v88<=(144 -((954 -(600 + 341)) + 131)))) then local v146=0 + 0 ;local v147;local v148;local v149;while true do if (((2341 -(59 + 187 + 610))==((8983 -5680) -(1339 + (672 -193)))) and ((0 + 0)==v146)) then v147=0 -0 ;v148=nil;v146=991 -(721 + 269) ;end if ((v146==(415 -(12 + 402))) or ((5254 -(202 + 622 + 203))<=(6873 -3776))) then v149=nil;while true do if (((0 + 0)==v147) or ((3305 -(743 + 54))==(147 + 4351))) then v148=v87[2];v149=v85[v87[3 -0 ]];v147=1 + 0 ;end if (((81 + 133)==(189 + 25)) and (v147==((1334 -(836 + 494)) -3))) then v85[v148 + 1 + 0 ]=v149;v85[v148]=v149[v87[(2 + 9) -7 ]];break;end end break;end end elseif ((645<(1364 + (184 -58))) and (v88>(766 -(287 + 478)))) then if ((v87[5 -3 ]==v85[v87[11 -7 ]]) or (((6244 -2834) -(897 + 55))<(1316 + 122))) then v67=v67 + 1 ;else v67=v87[11 -8 ];end else local v168=0 -0 ;local v169;local v170;while true do if (((3471 + 556)==4027) and (v168==(0 -(0 -0)))) then v169=0 + 0 ;v170=nil;v168=1 + 0 ;end if (((4519 -(225 + 1668))>(2276 -(110 + 30))) and (v168==(1 + 0))) then while true do if (((4930 -(754 + 6))>=(5476 -(7636 -4739))) and (v169==(0 -(0 + 0)))) then v170=v87[(2274 -(598 + 724)) -(478 + 472) ];v85[v170](v13(v85,v170 + 1 ,v87[880 -(861 + 16) ]));break;end end break;end end end elseif ((v88<=((2 + 1) -(0 + 0))) or ((2796 -(8 + 5))>3805)) then local v150=0 -0 ;local v151;local v152;local v153;while true do if (((4228 -(333 + 100 + 312))==3483) and (v150==(1949 -((6942 -5042) + 48)))) then v153=nil;while true do if (((4667 -(72 + 29))>(269 + 1288)) and (v151==(1790 -(1641 + 149)))) then local v218=0 -0 ;while true do if ((4712>(3689 -1334)) and (v218==(880 -(80 + 799)))) then v151=(1065 -625) -((291 -149) + 297) ;break;end if ((v218==(0 + 0)) or (596>=(8715 -(588 + 3420)))) then v152=49 -((44 -16) + 21) ;v153=nil;v218=1 + 0 ;end end end if (((1110 + 294)<1453) and (v151==(1 + 0))) then while true do if ((v152==(0 + 0)) or ((218 + 131)>(4202 -3141))) then v153=v87[137 -(132 + 3) ];v85[v153](v85[v153 + (1996 -(1710 + 285)) ]);break;end end break;end end break;end if ((v150==(445 -(244 + 201))) or ((1464 + 1477)>(6288 -3107))) then v151=0 + 0 ;v152=nil;v150=1 + 0 ;end end elseif (((1018 + 198)==1216) and (v88>4)) then v85[v87[5 -3 ]]=v34(v80[v87[1 + 2 ]],nil,v37);else v85[v87[65 -(54 + 9) ]]=v85[v87[3]];end elseif ((v88<=8) or ((3292 + 522)<=(929 -595))) then if (((225 + 406)<(1684 -(44 + 232 + 102))) and (v88<=6)) then v67=v87[1823 -(102 + 1611 + 107) ];elseif ((v88==7) or ((14520 -9620)<=(5111 -2366))) then local v174=637 -(385 + 252) ;local v175;local v176;local v177;local v178;while true do if ((1604>=(2245 -1535)) and (v174==(0 -0))) then v175=v87[901 -(556 + (584 -241)) ];v176,v177=v82(v85[v175](v13(v85,v175 + 1 + 0 ,v87[3 + 0 ])));v174=564 -(524 + 39) ;end if (((1 + 0)==v174) or (4100<=(3085 + 884))) then local v209=0 + 0 ;while true do if ((v209==(0 -0)) or (450>=(2391 + 345))) then v68=(v177 + v175) -1 ;v178=1229 -(119 + 1110) ;v209=588 -(255 + 332) ;end if ((v209==(1 + 0)) or ((3181 -(433 + 531))<((1039 -486) -(471 -301)))) then v174=151 -((1568 -(101 + 1333)) + 15) ;break;end end end if ((v174==(1101 -(415 + 684))) or ((190 + 835)>(2368 -1177))) then for v219=v175,v68 do local v220=0 -0 ;local v221;while true do if (((10549 -5785)>(175 + 109)) and (v220==0)) then v221=(0 + 0) -0 ;while true do if (((1138 -687)<(4931 -(359 + 167))) and (v221==(0 -0))) then v178=v178 + 1 + (1427 -(1023 + 404)) ;v85[v219]=v176[v178];break;end end break;end end end break;end end else v85[v87[1 + 1 ]]=v85[v87[1703 -(24 + 1676) ]][v87[9 -5 ]];end elseif ((v88<=(9 + 0)) or ((1961 -(1081 + (1090 -515)))>(4490 -(1137 + 407)))) then if ((4927>(445 -(35 + 1 + (687 -454)))) and (v85[v87[2]]==v87[4 + 0 ])) then v67=v67 + 1 + (0 -0) ;else v67=v87[5 -2 ];end elseif ((v88==(6 + 4)) or ((2980 + 138)<=(2321 -(17 + 1007)))) then v85[v87[5 -3 ]][v87[5 -2 ]]=v85[v87[4]];else local v184=1885 -(1465 + 420) ;local v185;local v186;while true do if ((((11261 -(481 + 1062)) -7286)>=(415 + 928)) and ((1 + 0)==v184)) then while true do if (((672 -(398 + 274))==v185) or ((4645 -1820)<=1356)) then v186=v87[1 + 0 + 1 + 0 ];v85[v186]=v85[v186]();break;end end break;end if (((2080 -(516 + 5))<=(2351 + 105)) and (v184==(0 -(866 -(484 + 382))))) then v185=0 + 0 ;v186=nil;v184=1 + 0 ;end end end elseif ((v88<=(6 + 11)) or (((10174 -6062) -(28 + 84))<=(170 + 2191))) then if (((6004 -1636)==(2584 + 1784)) and (v88<=14)) then if ((v88<=(47 -35)) or (3886<=(9127 -6778))) then v85[v87[(1095 -(926 + 168)) + (1452 -(1061 + 390)) ]][v87[1793 -(1563 + 227) ]]=v87[4 + 0 ];elseif ((v88>13) or ((729 -(81 + 190))>2611)) then do return;end else v85[v87[569 -(48 + 519) ]]=v87[3];end elseif (((6081 -2299)>122) and (v88<=(6 + 9))) then local v157=0 + 0 ;local v158;while true do if ((v157==(0 + 0)) or (658>(13782 -10236))) then v158=v87[195 -(179 + 14) ];v85[v158]=v85[v158](v13(v85,v158 + 1 + 0 ,v87[11 -8 ]));break;end end elseif ((v88>(1571 -(1224 + 331))) or ((568 + 141)>4789)) then v85[v87[2]]=v37[v87[3]];else v85[v87[2 + 0 ]]={};end elseif ((v88<=(970 -(293 + 610 + 47))) or ((1968 -(367 + (2283 -(850 + 52))))>=((3404 -(482 + 81)) -(769 + 183)))) then if ((v88<=(11 + 7)) or (2420<=(1167 -(256 + 169)))) then v85[v87[2]]=v87[3]~=0 ;elseif (((4064 -2249)==(3255 -(483 + 443 + 514))) and (v88==(1072 -(658 + 395)))) then local v192=1266 -(142 + 1124) ;local v193;local v194;while true do if ((((4331 -(51 + 778)) -2081)>1046) and (v192==(1 + 0))) then for v222=v193 + (195 -(189 + 5)) ,v87[1 + 2 ] do v7(v194,v85[v222]);end break;end if (((12180 -9437)>(1255 -(270 + 191 + (412 -(138 + 63))))) and (v192==0)) then local v210=0 + 0 ;while true do if (((496 + 350)==((2231 + 230) -1615)) and (v210==(1967 -((2524 -(1016 + 122)) + 581)))) then v193=v87[2];v194=v85[v193];v210=1;end if (((4362 -(508 + 223))==(4559 -(20 + 908))) and ((2 -1)==v210)) then v192=4 -3 ;break;end end end end else v85[v87[2 + 0 ]]();end elseif (((240 + 2367)>=((2154 -(1029 + 864)) + 415)) and (v88<=(522 -(146 + 48 + 307)))) then local v160=0 -(0 -0) ;local v161;local v162;local v163;while true do if ((2710>(4044 -1697)) and (v160==(0 -0))) then v161=0;v162=nil;v160=1450 -(407 + 1042) ;end if (((6541 -2470)>=(1547 + 348)) and ((1916 -(1277 + 638))==v160)) then v163=nil;while true do if ((v161==1) or ((1266 + 295)==((2781 -1998) -(206 + (494 -328))))) then while true do if (((137 + 107)<(5239 -(154 + 1574))) and (v162==(606 -(168 + 392 + 46)))) then v163=v87[1834 -(1149 + 683) ];v85[v163]=v85[v163](v13(v85,v163 + (1723 -(1506 + 216)) ,v68));break;end end break;end if ((v161==0) or ((30 + 3597)==(3535 + 1261))) then local v223=878 -(586 + 292) ;while true do if ((v223==(1 + 0)) or ((393 + 611)>2888)) then v161=1 + 0 ;break;end if (((3408 -2231)==(727 + 450)) and (v223==(934 -(239 + 695)))) then v162=0 -0 ;v163=nil;v223=1 + 0 ;end end end end break;end end elseif (((4653 -(6866 -4086))==(6369 -(4791 -(73 + 222)))) and (v88==(1 + 21))) then for v204=v87[1283 -(93 + 89 + 167 + 932) ],v87[3] do v85[v204]=nil;end else local v195=0 -0 ;local v196;local v197;local v198;local v199;local v200;while true do if ((v195==(2 + 0)) or (424==(850 + 797))) then v200=nil;while true do if ((v196==(0 -(1096 -(263 + 833)))) or (4935<((8526 -3150) -(201 + (1815 -1344))))) then local v233=1100 -(802 + 298) ;while true do if ((v233==(1 -0)) or (2695>=(3067 + 156))) then v196=(1 -0) -0 ;break;end if (((2436 -(1654 + 130))<(3621 -1867)) and (v233==0)) then v197=1101 -(235 + 576 + 290) ;v198=nil;v233=1;end end end if ((v196==((807 -(748 + 57)) + 0)) or ((771 + (5060 -(278 + 1105)))==2039)) then while true do if (((2367 + 2000)>1531) and (v197==(1250 -(1216 + 34)))) then local v239=(3777 -(579 + 1237)) -(994 + 967) ;local v240;while true do if (((2114 -(2579 -(1266 + 75)))<1513) and ((0 -0)==v239)) then v240=(803 -(491 + 312)) + 0 ;while true do if (((7877 -4601)<(8873 -4320)) and (v240==((341 + 537) -((312 -180) + 746)))) then local v253=0 + 0 ;while true do if ((v253==0) or ((4847 -(427 + 877))<3411)) then v198=v87[3 -1 ];v199=v85[v198];v253=1548 -(1123 + 424) ;end if (((1 -0)==v253) or ((4215 -(291 + 240))<=1331)) then v240=1;break;end end end if ((v240==(1 + (0 -0))) or ((15857 -11117)<=(865 -(69 + 1)))) then v197=1 + 0 ;break;end end break;end end end if ((v197==1) or ((12082 -7360)<(5761 -(107 + 1822)))) then v200=v87[(3422 -2064) -(1349 + 6) ];for v250=(1 + 0) -0 ,v200 do v199[v250]=v85[v198 + v250 ];end break;end end break;end if (((1299 -(955 + 268))<=(2693 + 1293)) and (v196==1)) then local v234=0;while true do if ((3521>=(266 + 1047)) and (v234==(1058 -(821 + 236)))) then v196=1 + 1 ;break;end if ((v234==0) or ((901 + (2293 -(639 + 110)))==(320 + 616))) then v199=nil;v200=nil;v234=1 + (0 -0) ;end end end end break;end if ((2999>(1825 -1188)) and (v195==(0 + 0))) then v196=0 + 0 ;v197=nil;v195=1;end if ((v195==(1762 -(275 + 1486))) or ((2513 -1825)>4772)) then v198=nil;v199=nil;v195=4 -2 ;end end end v67=v67 + 1 + 0 ;break;end end break;end end break;end if (((909 + 1434)==((5923 -(606 + 1021)) -(176 + 1451 + 326))) and (v93==((0 -0) -0))) then v94=0 -0 ;v95=nil;v93=1;end end end end A,B=v32(v11(v71));if  not A[1] then local v96=v35[4][v67] or "?" ;error("Script error at ["   .. v96   .. "]:"   .. A[2] );else return v13(A,2,B);end end;end return v34(v33(),{},v17)(...);end v15("LOL!513O00028O00026O00F03F027O0040026O000840030C3O0043726561746557696E646F7703043O004E616D6503173O004B696E675374657769655265616C277320487562205632030C3O004C6F6164696E675469746C65030F3O004C6F6164696E675375627469746C6503113O006279204B696E675374657769655265616C03133O00436F6E66696775726174696F6E536176696E6703073O00456E61626C65642O01030A3O00466F6C6465724E616D650003083O0046696C654E616D6503073O00446973636F726403063O00496E76697465030A3O0066467654756279535253030D3O0052656D656D6265724A6F696E7303093O004B657953797374656D030B3O004B657953652O74696E677303053O005469746C6503083O005375627469746C65031B3O004B696E675374657769655265616C2773204B65792053797374656D03043O004E6F7465031B3O004A6F696E2074686520446973636F726420746F20676574206B657903093O005369726975734B657903073O00536176654B65790100030F3O00477261624B657946726F6D536974652O033O004B657903323O00555663335361484D676A7242315638523652567657695932336772556A6242594C46456A304D384D742O386D33643673553703073O0067657467656E76030A3O005365637572654D6F6465030A3O006C6F6164737472696E6703043O0067616D6503073O00482O747047657403403O00682O7470733A2O2F7261772E67697468756275736572636F6E74656E742E636F6D2F73686C6578776172652F5261796669656C642F6D61696E2F736F75726365030D3O0043726561746553656374696F6E030B3O004C6F63616C506C61796572030C3O0043726561746542752O746F6E03183O00436F707920446973636F726420696E76697465206C696E6B03083O0043612O6C6261636B03093O00437265617465546162022O00A0E9AAB3F041026O00104003183O0046752O6C427269676874205B444F204E4F54205350414D5D026O001440030C3O00427970612O73656420466C7903113O00546F75636820466C696E67205B5749505D026O00184003123O00496E74727564657220446574656374696F6E03113O004C6F6164436F6E66696775726174696F6E03063O004E6F74696679030B3O00436F2O72656374204B657903073O00436F6E74656E7403063O00456E6A6F792103083O004475726174696F6E026O001A4003053O00496D616765022O0070CDB1D5F04103073O00416374696F6E7303063O0049676E6F726503053O004F6B61792103073O0043726564697473030C3O00437265617465536C6964657203093O005365742053702O656403053O0052616E6765026O003040025O00407F4003093O00496E6372656D656E74026O00244003063O0053752O66697803053O0053702O6564030C3O0043752O72656E7456616C756503043O00466C6167034O0003043O004D61696E030A3O004E6F436C6970205B4C5D030C3O0054686520496E74727564657200EE3O00120D3O00014O00160001000D3O0026093O0006000100020004063O000600012O0016000500083O00120D3O00033O000E02000400E300013O0004063O00E300012O0016000D000D3O0026090001003A000100010004063O003A000100120D000E00013O002609000E002B000100020004063O002B000100202O000F000200052O001000113O000700300C00110006000700300C00110008000700300C00110009000A2O001000123O000300300C0012000C000D00300C0012000E000F00300C00120010000700100A0011000B00122O001000123O000300300C0012000C000D00300C00120012001300300C00120014000D00100A00110011001200300C00110015000D2O001000123O000700300C00120017000700300C00120018001900300C0012001A001B00300C00120010001C00300C0012001D001E00300C0012001F001E00300C00120020002100100A0011001600122O000F000F001100022O00040003000F3O00120D000100023O0004063O003A0001000E020001000C0001000E0004063O000C0001001211000F00224O000B000F0001000200300C000F0023000D001211000F00243O001211001000253O00202O00100010002600120D001200274O0007001000124O0015000F3O00022O000B000F000100022O00040002000F3O00120D000E00023O0004063O000C000100260900010055000100030004063O0055000100120D000E00013O002609000E0045000100020004063O0045000100202O000F0007002800120D001100294O000F000F001100022O00040008000F3O00120D000100043O0004063O00550001002609000E003D000100010004063O003D000100202O000F0004002A2O001000113O000200300C00110006002B00020500125O00100A0011002C00122O000F000F001100022O00040006000F3O00202O000F0003002D00120D001100293O00120D0012002E4O000F000F001200022O00040007000F3O00120D000E00023O0004063O003D0001000E02002F0075000100010004063O0075000100120D000E00013O002609000E0063000100020004063O0063000100202O000F000A002A2O001000113O000200300C001100060030000205001200013O00100A0011002C00122O000F000F001100022O00040006000F3O00120D000100313O0004063O00750001002609000E0058000100010004063O0058000100202O000F000A002A2O001000113O000200300C001100060032000205001200023O00100A0011002C00122O000F000F001100022O00040006000F3O00202O000F000A002A2O001000113O000200300C001100060033000205001200033O00100A0011002C00122O000F000F001100022O00040006000F3O00120D000E00023O0004063O0058000100260900010088000100340004063O0088000100202O000E000C002A2O001000103O000200300C001000060030000205001100043O00100A0010002C00112O000F000E001000022O00040006000E3O00202O000E000C002A2O001000103O000200300C001000060035000205001100053O00100A0010002C00112O000F000E001000022O00040006000E3O00202O000E000200362O0003000E000200010004063O00ED0001002609000100AA000100020004063O00AA000100120D000E00013O002609000E00A1000100010004063O00A1000100202O000F000200372O001000113O000500300C00110017003800300C00110039003A00300C0011003B003C00300C0011003D003E2O001000123O00012O001000133O000200300C001300060041000205001400063O00100A0013002C001400100A00120040001300100A0011003F00122O0001000F0011000100202O000F0003002D00120D001100423O00120D0012002E4O000F000F001200022O00040004000F3O00120D000E00023O002609000E008B000100020004063O008B000100202O000F0004002800120D001100424O000F000F001100022O00040005000F3O00120D000100033O0004063O00AA00010004063O008B0001002609000100C6000100040004063O00C6000100202O000E000700432O001000103O000700300C0010000600442O0010001100023O00120D001200463O00120D001300474O001700110002000100100A00100045001100300C00100048004900300C0010004A004B00300C0010004C004600300C0010004D004E000205001100073O00100A0010002C00112O000F000E001000022O00040009000E3O00202O000E0003002D00120D0010004F3O00120D0011002E4O000F000E001100022O0004000A000E3O00202O000E000A002800120D0010004F4O000F000E001000022O0004000B000E3O00120D0001002F3O00260900010009000100310004063O0009000100120D000E00013O002609000E00D8000100010004063O00D8000100202O000F000A002A2O001000113O000200300C001100060050000205001200083O00100A0011002C00122O000F000F001100022O00040006000F3O00202O000F0003002D00120D001100513O00120D0012002E4O000F000F001200022O0004000C000F3O00120D000E00023O002609000E00C9000100020004063O00C9000100202O000F000C002800120D0011004F4O000F000F001100022O0004000D000F3O00120D000100343O0004063O000900010004063O00C900010004063O000900010004063O00ED00010026093O00E7000100030004063O00E700012O00160009000C3O00120D3O00043O0026093O0002000100010004063O0002000100120D000100014O0016000200043O00120D3O00023O0004063O000200012O000E3O00013O00093O00023O00030C3O00736574636C6970626F617264031D3O00682O7470733A2O2F646973636F72642E2O672F6646765475627953525300043O0012113O00013O00120D000100024O00033O000200012O000E3O00017O00043O00343O00343O00343O00353O00043O00030A3O006C6F6164737472696E6703043O0067616D6503073O00482O747047657403213O00682O7470733A2O2F706173746562696E2E636F6D2F7261772F567154774D4B426700093O0012113O00013O001211000100023O00202O00010001000300120D000300044O0012000400014O0007000100044O00155O00022O00143O000100012O000E3O00017O00093O00403O00403O00403O00403O00403O00403O00403O00403O00413O00043O00030A3O006C6F6164737472696E6703043O0067616D6503073O00482O747047657403213O00682O7470733A2O2F706173746562696E2E636F6D2F7261772F4E5658395637766500093O0012113O00013O001211000100023O00202O00010001000300120D000300044O0012000400014O0007000100044O00155O00022O00143O000100012O000E3O00017O00093O00473O00473O00473O00473O00473O00473O00473O00473O00483O00043O00030A3O006C6F6164737472696E6703043O0067616D6503073O00482O747047657403213O00682O7470733A2O2F706173746562696E2E636F6D2F7261772F723937643764533000093O0012113O00013O001211000100023O00202O00010001000300120D000300044O0012000400014O0007000100044O00155O00022O00143O000100012O000E3O00017O00093O004A3O004A3O004A3O004A3O004A3O004A3O004A3O004A3O004B3O00043O00030A3O006C6F6164737472696E6703043O0067616D6503073O00482O747047657403213O00682O7470733A2O2F706173746562696E2E636F6D2F7261772F6838746D5042596A00093O0012113O00013O001211000100023O00202O00010001000300120D000300044O0012000400014O0007000100044O00155O00022O00143O000100012O000E3O00017O00093O00523O00523O00523O00523O00523O00523O00523O00523O00533O00043O00030A3O006C6F6164737472696E6703043O0067616D6503073O00482O747047657403213O00682O7470733A2O2F706173746562696E2E636F6D2F7261772F427374335A4C584400093O0012113O00013O001211000100023O00202O00010001000300120D000300044O0012000400014O0007000100044O00155O00022O00143O000100012O000E3O00017O00093O00553O00553O00553O00553O00553O00553O00553O00553O00563O00023O0003053O007072696E7403153O0054686520757365722074612O706564204F6B61792100043O0012113O00013O00120D000100024O00033O000200012O000E3O00017O00043O005F3O005F3O005F3O00603O00063O0003043O0067616D6503073O00506C6179657273030B3O004C6F63616C506C6179657203093O0043686172616374657203083O0048756D616E6F696403093O0057616C6B53702O656401073O001211000100013O00200800010001000200200800010001000300200800010001000400200800010001000500100A000100064O000E3O00017O00073O006D3O006D3O006D3O006D3O006D3O006D3O006E3O00043O00030A3O006C6F6164737472696E6703043O0067616D6503073O00482O747047657403213O00682O7470733A2O2F706173746562696E2E636F6D2F7261772F4E5658395637766500093O0012113O00013O001211000100023O00202O00010001000300120D000300044O0012000400014O0007000100044O00155O00022O00143O000100012O000E3O00017O00093O00783O00783O00783O00783O00783O00783O00783O00783O00793O00EE3O00023O00033O00113O00113O00123O00163O00183O00183O00193O001B3O001B3O001C3O001E3O001E3O001F3O001F3O001F3O001F3O001F3O001F3O001F3O001F3O001F3O001F3O001F3O001F3O001F3O001F3O001F3O001F3O001F3O001F3O001F3O001F3O001F3O001F3O001F3O001F3O001F3O001F3O001F3O00203O00213O00233O00233O00243O00243O00243O00253O00253O00253O00253O00253O00253O00253O00253O00263O00273O002A3O002A3O002B3O002D3O002D3O002E3O002E3O002E3O002E3O002F3O00303O00323O00323O00333O00333O00333O00353O00353O00333O00353O00363O00363O00363O00363O00363O00373O00383O003B3O003B3O003C3O003E3O003E3O003F3O003F3O003F3O00413O00413O003F3O00413O00423O00433O00453O00453O00463O00463O00463O00483O00483O00463O00483O00493O00493O00493O004B3O004B3O00493O004B3O004C3O004D3O00503O00503O00513O00513O00513O00533O00533O00513O00533O00543O00543O00543O00563O00563O00543O00563O00573O00573O00583O005A3O005A3O005B3O005D3O005D3O005E3O005E3O005E3O005E3O005E3O005E3O005E3O005E3O005E3O00603O00603O00603O00603O005E3O00613O00613O00613O00613O00613O00623O00643O00643O00653O00653O00653O00653O00663O00673O00683O006B3O006B3O006C3O006C3O006C3O006C3O006C3O006C3O006C3O006C3O006C3O006C3O006C3O006C3O006E3O006E3O006C3O006E3O006F3O006F3O006F3O006F3O006F3O00703O00703O00703O00703O00713O00733O00733O00743O00763O00763O00773O00773O00773O00793O00793O00773O00793O007A3O007A3O007A3O007A3O007A3O007B3O007D3O007D3O007E3O007E3O007E3O007E3O007F3O00803O00813O00833O00853O00873O00873O00883O008C3O008E3O008E3O008F3O00903O00933O00943O00963O00",v9(),...);end
+--// Cache
+
+local loadstring, getgenv, setclipboard, tablefind, UserInputService = loadstring, getgenv, setclipboard, table.find, game:GetService("UserInputService")
+
+--// Loaded check
+
+if Hydrware or HydrwareV2Loaded then
+    return
+end
+
+--// Environment
+
+getgenv().Hydrware = {}
+
+--// Load Modules
+
+loadstring(game:HttpGet('https://pastebin.com/raw/nn87uEQR', true))()
+loadstring(game:HttpGet('https://pastebin.com/raw/NUcw0Ctg', true))()
+
+--// Variables
+
+local Library = loadstring(game:GetObjects("rbxassetid://7657867786")[1].Source)() -- Pepsi's UI Library
+local Aimbot, WallHack = getgenv().Hydrware.Aimbot, getgenv().Hydrware.WallHack
+local Parts, Fonts, TracersType = {"Head", "HumanoidRootPart", "Torso", "Left Arm", "Right Arm", "Left Leg", "Right Leg", "LeftHand", "RightHand", "LeftLowerArm", "RightLowerArm", "LeftUpperArm", "RightUpperArm", "LeftFoot", "LeftLowerLeg", "UpperTorso", "LeftUpperLeg", "RightFoot", "RightLowerLeg", "LowerTorso", "RightUpperLeg"}, {"UI", "System", "Plex", "Monospace"}, {"Bottom", "Center", "Mouse"}
+
+--// Frame
+
+Library.UnloadCallback = function()
+	Aimbot.Functions:Exit()
+	WallHack.Functions:Exit()
+	getgenv().Hydrware = nil
+end
+
+local MainFrame = Library:CreateWindow({
+	Name = "Hydrware",
+	Themeable = {
+		Image = "7059346386",
+		Info = "Made by Hydrx\nPowered by Pepsi's UI Library",
+		Credit = false
+	},
+	Background = "",
+})
+
+--// Tabs
+
+local AimbotTab = MainFrame:CreateTab({
+	Name = "Aim"
+})
+
+local VisualsTab = MainFrame:CreateTab({
+	Name = "ESP"
+})
+
+local CrosshairTab = MainFrame:CreateTab({
+	Name = "Custom Cross"
+})
+
+local FunctionsTab = MainFrame:CreateTab({
+	Name = "Menu Shit"
+})
+
+--// Aimbot Sections
+
+local Values = AimbotTab:CreateSection({
+	Name = "Values"
+})
+
+local Checks = AimbotTab:CreateSection({
+	Name = "Checks"
+})
+
+local ThirdPerson = AimbotTab:CreateSection({
+	Name = "Third Person"
+})
+
+local FOV_Values = AimbotTab:CreateSection({
+	Name = "Field Of View",
+	Side = "Right"
+})
+
+local FOV_Appearance = AimbotTab:CreateSection({
+	Name = "FOV Circle Appearance",
+	Side = "Right"
+})
+
+--// Visuals Sections
+
+local WallHackChecks = VisualsTab:CreateSection({
+	Name = "Checks"
+})
+
+local ESPSettings = VisualsTab:CreateSection({
+	Name = "ESP Settings"
+})
+
+local BoxesSettings = VisualsTab:CreateSection({
+	Name = "Boxes Settings"
+})
+
+local ChamsSettings = VisualsTab:CreateSection({
+	Name = "Chams Settings"
+})
+
+local TracersSettings = VisualsTab:CreateSection({
+	Name = "Tracers Settings",
+	Side = "Right"
+})
+
+local HeadDotsSettings = VisualsTab:CreateSection({
+	Name = "Head Dots Settings",
+	Side = "Right"
+})
+
+local HealthBarSettings = VisualsTab:CreateSection({
+	Name = "Health Bar Settings",
+	Side = "Right"
+})
+
+--// Crosshair Sections
+
+local CrosshairSettings = CrosshairTab:CreateSection({
+	Name = "Settings"
+})
+
+local CrosshairSettings_CenterDot = CrosshairTab:CreateSection({
+	Name = "Center Dot Settings",
+	Side = "Right"
+})
+
+--// Functions Sections
+
+local FunctionsSection = FunctionsTab:CreateSection({
+	Name = "Functions"
+})
+
+--// Aimbot Values
+
+Values:AddToggle({
+	Name = "Enabled",
+	Value = Aimbot.Settings.Enabled,
+	Callback = function(New, Old)
+		Aimbot.Settings.Enabled = New
+	end
+}).Default = Aimbot.Settings.Enabled
+
+Values:AddToggle({
+	Name = "Toggle",
+	Value = Aimbot.Settings.Toggle,
+	Callback = function(New, Old)
+		Aimbot.Settings.Toggle = New
+	end
+}).Default = Aimbot.Settings.Toggle
+
+Aimbot.Settings.LockPart = Parts[1]; Values:AddDropdown({
+	Name = "Lock Part",
+	Value = Parts[1],
+	Callback = function(New, Old)
+		Aimbot.Settings.LockPart = New
+	end,
+	List = Parts,
+	Nothing = "Head"
+}).Default = Parts[1]
+
+Values:AddTextbox({ -- Using a Textbox instead of a Keybind because the UI Library doesn't support Mouse inputs like Left Click / Right Click...
+	Name = "Hotkey",
+	Value = Aimbot.Settings.TriggerKey,
+	Callback = function(New, Old)
+		Aimbot.Settings.TriggerKey = New
+	end
+}).Default = Aimbot.Settings.TriggerKey
+
+--[[
+Values:AddKeybind({
+	Name = "Hotkey",
+	Value = Aimbot.Settings.TriggerKey,
+	Callback = function(New, Old)
+		Aimbot.Settings.TriggerKey = stringmatch(tostring(New), "Enum%.[UserInputType]*[KeyCode]*%.(.+)")
+	end,
+}).Default = Aimbot.Settings.TriggerKey
+]]
+
+Values:AddSlider({
+	Name = "Sensitivity",
+	Value = Aimbot.Settings.Sensitivity,
+	Callback = function(New, Old)
+		Aimbot.Settings.Sensitivity = New
+	end,
+	Min = 0,
+	Max = 1,
+	Decimals = 2
+}).Default = Aimbot.Settings.Sensitivity
+
+--// Aimbot Checks
+
+Checks:AddToggle({
+	Name = "Team Check",
+	Value = Aimbot.Settings.TeamCheck,
+	Callback = function(New, Old)
+		Aimbot.Settings.TeamCheck = New
+	end
+}).Default = Aimbot.Settings.TeamCheck
+
+Checks:AddToggle({
+	Name = "Wall Check",
+	Value = Aimbot.Settings.WallCheck,
+	Callback = function(New, Old)
+		Aimbot.Settings.WallCheck = New
+	end
+}).Default = Aimbot.Settings.WallCheck
+
+Checks:AddToggle({
+	Name = "Alive Check",
+	Value = Aimbot.Settings.AliveCheck,
+	Callback = function(New, Old)
+		Aimbot.Settings.AliveCheck = New
+	end
+}).Default = Aimbot.Settings.AliveCheck
+
+--// Aimbot ThirdPerson
+
+ThirdPerson:AddToggle({
+	Name = "Enable Third Person",
+	Value = Aimbot.Settings.ThirdPerson,
+	Callback = function(New, Old)
+		Aimbot.Settings.ThirdPerson = New
+	end
+}).Default = Aimbot.Settings.ThirdPerson
+
+ThirdPerson:AddSlider({
+	Name = "Sensitivity",
+	Value = Aimbot.Settings.ThirdPersonSensitivity,
+	Callback = function(New, Old)
+		Aimbot.Settings.ThirdPersonSensitivity = New
+	end,
+	Min = 0.1,
+	Max = 5,
+	Decimals = 1
+}).Default = Aimbot.Settings.ThirdPersonSensitivity
+
+--// FOV Settings Values
+
+FOV_Values:AddToggle({
+	Name = "Enabled",
+	Value = Aimbot.FOVSettings.Enabled,
+	Callback = function(New, Old)
+		Aimbot.FOVSettings.Enabled = New
+	end
+}).Default = Aimbot.FOVSettings.Enabled
+
+FOV_Values:AddToggle({
+	Name = "Visible",
+	Value = Aimbot.FOVSettings.Visible,
+	Callback = function(New, Old)
+		Aimbot.FOVSettings.Visible = New
+	end
+}).Default = Aimbot.FOVSettings.Visible
+
+FOV_Values:AddSlider({
+	Name = "Amount",
+	Value = Aimbot.FOVSettings.Amount,
+	Callback = function(New, Old)
+		Aimbot.FOVSettings.Amount = New
+	end,
+	Min = 10,
+	Max = 300
+}).Default = Aimbot.FOVSettings.Amount
+
+--// FOV Settings Appearance
+
+FOV_Appearance:AddToggle({
+	Name = "Filled",
+	Value = Aimbot.FOVSettings.Filled,
+	Callback = function(New, Old)
+		Aimbot.FOVSettings.Filled = New
+	end
+}).Default = Aimbot.FOVSettings.Filled
+
+FOV_Appearance:AddSlider({
+	Name = "Transparency",
+	Value = Aimbot.FOVSettings.Transparency,
+	Callback = function(New, Old)
+		Aimbot.FOVSettings.Transparency = New
+	end,
+	Min = 0,
+	Max = 1,
+	Decimal = 1
+}).Default = Aimbot.FOVSettings.Transparency
+
+FOV_Appearance:AddSlider({
+	Name = "Sides",
+	Value = Aimbot.FOVSettings.Sides,
+	Callback = function(New, Old)
+		Aimbot.FOVSettings.Sides = New
+	end,
+	Min = 3,
+	Max = 60
+}).Default = Aimbot.FOVSettings.Sides
+
+FOV_Appearance:AddSlider({
+	Name = "Thickness",
+	Value = Aimbot.FOVSettings.Thickness,
+	Callback = function(New, Old)
+		Aimbot.FOVSettings.Thickness = New
+	end,
+	Min = 1,
+	Max = 50
+}).Default = Aimbot.FOVSettings.Thickness
+
+FOV_Appearance:AddColorpicker({
+	Name = "Color",
+	Value = Aimbot.FOVSettings.Color,
+	Callback = function(New, Old)
+		Aimbot.FOVSettings.Color = New
+	end
+}).Default = Aimbot.FOVSettings.Color
+
+FOV_Appearance:AddColorpicker({
+	Name = "Locked Color",
+	Value = Aimbot.FOVSettings.LockedColor,
+	Callback = function(New, Old)
+		Aimbot.FOVSettings.LockedColor = New
+	end
+}).Default = Aimbot.FOVSettings.LockedColor
+
+--// Wall Hack Settings
+
+WallHackChecks:AddToggle({
+	Name = "Enabled",
+	Value = WallHack.Settings.Enabled,
+	Callback = function(New, Old)
+		WallHack.Settings.Enabled = New
+	end
+}).Default = WallHack.Settings.Enabled
+
+WallHackChecks:AddToggle({
+	Name = "Team Check",
+	Value = WallHack.Settings.TeamCheck,
+	Callback = function(New, Old)
+		WallHack.Settings.TeamCheck = New
+	end
+}).Default = WallHack.Settings.TeamCheck
+
+WallHackChecks:AddToggle({
+	Name = "Alive Check",
+	Value = WallHack.Settings.AliveCheck,
+	Callback = function(New, Old)
+		WallHack.Settings.AliveCheck = New
+	end
+}).Default = WallHack.Settings.AliveCheck
+
+--// Visuals Settings
+
+ESPSettings:AddToggle({
+	Name = "Enabled",
+	Value = WallHack.Visuals.ESPSettings.Enabled,
+	Callback = function(New, Old)
+		WallHack.Visuals.ESPSettings.Enabled = New
+	end
+}).Default = WallHack.Visuals.ESPSettings.Enabled
+
+ESPSettings:AddToggle({
+	Name = "Outline",
+	Value = WallHack.Visuals.ESPSettings.Outline,
+	Callback = function(New, Old)
+		WallHack.Visuals.ESPSettings.Outline = New
+	end
+}).Default = WallHack.Visuals.ESPSettings.Outline
+
+ESPSettings:AddToggle({
+	Name = "Display Distance",
+	Value = WallHack.Visuals.ESPSettings.DisplayDistance,
+	Callback = function(New, Old)
+		WallHack.Visuals.ESPSettings.DisplayDistance = New
+	end
+}).Default = WallHack.Visuals.ESPSettings.DisplayDistance
+
+ESPSettings:AddToggle({
+	Name = "Display Health",
+	Value = WallHack.Visuals.ESPSettings.DisplayHealth,
+	Callback = function(New, Old)
+		WallHack.Visuals.ESPSettings.DisplayHealth = New
+	end
+}).Default = WallHack.Visuals.ESPSettings.DisplayHealth
+
+ESPSettings:AddToggle({
+	Name = "Display Name",
+	Value = WallHack.Visuals.ESPSettings.DisplayName,
+	Callback = function(New, Old)
+		WallHack.Visuals.ESPSettings.DisplayName = New
+	end
+}).Default = WallHack.Visuals.ESPSettings.DisplayName
+
+ESPSettings:AddSlider({
+	Name = "Offset",
+	Value = WallHack.Visuals.ESPSettings.Offset,
+	Callback = function(New, Old)
+		WallHack.Visuals.ESPSettings.Offset = New
+	end,
+	Min = -30,
+	Max = 30
+}).Default = WallHack.Visuals.ESPSettings.Offset
+
+ESPSettings:AddColorpicker({
+	Name = "Text Color",
+	Value = WallHack.Visuals.ESPSettings.TextColor,
+	Callback = function(New, Old)
+		WallHack.Visuals.ESPSettings.TextColor = New
+	end
+}).Default = WallHack.Visuals.ESPSettings.TextColor
+
+ESPSettings:AddColorpicker({
+	Name = "Outline Color",
+	Value = WallHack.Visuals.ESPSettings.OutlineColor,
+	Callback = function(New, Old)
+		WallHack.Visuals.ESPSettings.OutlineColor = New
+	end
+}).Default = WallHack.Visuals.ESPSettings.OutlineColor
+
+ESPSettings:AddSlider({
+	Name = "Text Transparency",
+	Value = WallHack.Visuals.ESPSettings.TextTransparency,
+	Callback = function(New, Old)
+		WallHack.Visuals.ESPSettings.TextTransparency = New
+	end,
+	Min = 0,
+	Max = 1,
+	Decimals = 2
+}).Default = WallHack.Visuals.ESPSettings.TextTransparency
+
+ESPSettings:AddSlider({
+	Name = "Text Size",
+	Value = WallHack.Visuals.ESPSettings.TextSize,
+	Callback = function(New, Old)
+		WallHack.Visuals.ESPSettings.TextSize = New
+	end,
+	Min = 8,
+	Max = 24
+}).Default = WallHack.Visuals.ESPSettings.TextSize
+
+ESPSettings:AddDropdown({
+	Name = "Text Font",
+	Value = Fonts[WallHack.Visuals.ESPSettings.TextFont + 1],
+	Callback = function(New, Old)
+		WallHack.Visuals.ESPSettings.TextFont = Drawing.Fonts[New]
+	end,
+	List = Fonts,
+	Nothing = "UI"
+}).Default = Fonts[WallHack.Visuals.ESPSettings.TextFont + 1]
+
+BoxesSettings:AddToggle({
+	Name = "Enabled",
+	Value = WallHack.Visuals.BoxSettings.Enabled,
+	Callback = function(New, Old)
+		WallHack.Visuals.BoxSettings.Enabled = New
+	end
+}).Default = WallHack.Visuals.BoxSettings.Enabled
+
+BoxesSettings:AddSlider({
+	Name = "Transparency",
+	Value = WallHack.Visuals.BoxSettings.Transparency,
+	Callback = function(New, Old)
+		WallHack.Visuals.BoxSettings.Transparency = New
+	end,
+	Min = 0,
+	Max = 1,
+	Decimals = 2
+}).Default = WallHack.Visuals.BoxSettings.Transparency
+
+BoxesSettings:AddSlider({
+	Name = "Thickness",
+	Value = WallHack.Visuals.BoxSettings.Thickness,
+	Callback = function(New, Old)
+		WallHack.Visuals.BoxSettings.Thickness = New
+	end,
+	Min = 1,
+	Max = 5
+}).Default = WallHack.Visuals.BoxSettings.Thickness
+
+BoxesSettings:AddSlider({
+	Name = "Scale Increase (For 3D)",
+	Value = WallHack.Visuals.BoxSettings.Increase,
+	Callback = function(New, Old)
+		WallHack.Visuals.BoxSettings.Increase = New
+	end,
+	Min = 1,
+	Max = 5
+}).Default = WallHack.Visuals.BoxSettings.Increase
+
+BoxesSettings:AddColorpicker({
+	Name = "Color",
+	Value = WallHack.Visuals.BoxSettings.Color,
+	Callback = function(New, Old)
+		WallHack.Visuals.BoxSettings.Color = New
+	end
+}).Default = WallHack.Visuals.BoxSettings.Color
+
+BoxesSettings:AddDropdown({
+	Name = "Type",
+	Value = WallHack.Visuals.BoxSettings.Type == 1 and "3D" or "2D",
+	Callback = function(New, Old)
+		WallHack.Visuals.BoxSettings.Type = New == "3D" and 1 or 2
+	end,
+	List = {"3D", "2D"},
+	Nothing = "3D"
+}).Default = WallHack.Visuals.BoxSettings.Type == 1 and "3D" or "2D"
+
+BoxesSettings:AddToggle({
+	Name = "Filled (2D Square)",
+	Value = WallHack.Visuals.BoxSettings.Filled,
+	Callback = function(New, Old)
+		WallHack.Visuals.BoxSettings.Filled = New
+	end
+}).Default = WallHack.Visuals.BoxSettings.Filled
+
+ChamsSettings:AddToggle({
+	Name = "Enabled",
+	Value = WallHack.Visuals.ChamsSettings.Enabled,
+	Callback = function(New, Old)
+		WallHack.Visuals.ChamsSettings.Enabled = New
+	end
+}).Default = WallHack.Visuals.ChamsSettings.Enabled
+
+ChamsSettings:AddToggle({
+	Name = "Filled",
+	Value = WallHack.Visuals.ChamsSettings.Filled,
+	Callback = function(New, Old)
+		WallHack.Visuals.ChamsSettings.Filled = New
+	end
+}).Default = WallHack.Visuals.ChamsSettings.Filled
+
+ChamsSettings:AddToggle({
+	Name = "Entire Body (For R15 Rigs)",
+	Value = WallHack.Visuals.ChamsSettings.EntireBody,
+	Callback = function(New, Old)
+		WallHack.Visuals.ChamsSettings.EntireBody = New
+	end
+}).Default = WallHack.Visuals.ChamsSettings.EntireBody
+
+ChamsSettings:AddSlider({
+	Name = "Transparency",
+	Value = WallHack.Visuals.ChamsSettings.Transparency,
+	Callback = function(New, Old)
+		WallHack.Visuals.ChamsSettings.Transparency = New
+	end,
+	Min = 0,
+	Max = 1,
+	Decimals = 2
+}).Default = WallHack.Visuals.ChamsSettings.Transparency
+
+ChamsSettings:AddSlider({
+	Name = "Thickness",
+	Value = WallHack.Visuals.ChamsSettings.Thickness,
+	Callback = function(New, Old)
+		WallHack.Visuals.ChamsSettings.Thickness = New
+	end,
+	Min = 0,
+	Max = 3
+}).Default = WallHack.Visuals.ChamsSettings.Thickness
+
+ChamsSettings:AddColorpicker({
+	Name = "Color",
+	Value = WallHack.Visuals.ChamsSettings.Color,
+	Callback = function(New, Old)
+		WallHack.Visuals.ChamsSettings.Color = New
+	end
+}).Default = WallHack.Visuals.ChamsSettings.Color
+
+TracersSettings:AddToggle({
+	Name = "Enabled",
+	Value = WallHack.Visuals.TracersSettings.Enabled,
+	Callback = function(New, Old)
+		WallHack.Visuals.TracersSettings.Enabled = New
+	end
+}).Default = WallHack.Visuals.TracersSettings.Enabled
+
+TracersSettings:AddSlider({
+	Name = "Transparency",
+	Value = WallHack.Visuals.TracersSettings.Transparency,
+	Callback = function(New, Old)
+		WallHack.Visuals.TracersSettings.Transparency = New
+	end,
+	Min = 0,
+	Max = 1,
+	Decimals = 2
+}).Default = WallHack.Visuals.TracersSettings.Transparency
+
+TracersSettings:AddSlider({
+	Name = "Thickness",
+	Value = WallHack.Visuals.TracersSettings.Thickness,
+	Callback = function(New, Old)
+		WallHack.Visuals.TracersSettings.Thickness = New
+	end,
+	Min = 1,
+	Max = 5
+}).Default = WallHack.Visuals.TracersSettings.Thickness
+
+TracersSettings:AddColorpicker({
+	Name = "Color",
+	Value = WallHack.Visuals.TracersSettings.Color,
+	Callback = function(New, Old)
+		WallHack.Visuals.TracersSettings.Color = New
+	end
+}).Default = WallHack.Visuals.TracersSettings.Color
+
+TracersSettings:AddDropdown({
+	Name = "Start From",
+	Value = TracersType[WallHack.Visuals.TracersSettings.Type],
+	Callback = function(New, Old)
+		WallHack.Visuals.TracersSettings.Type = tablefind(TracersType, New)
+	end,
+	List = TracersType,
+	Nothing = "Bottom"
+}).Default = Fonts[WallHack.Visuals.TracersSettings.Type + 1]
+
+HeadDotsSettings:AddToggle({
+	Name = "Enabled",
+	Value = WallHack.Visuals.HeadDotSettings.Enabled,
+	Callback = function(New, Old)
+		WallHack.Visuals.HeadDotSettings.Enabled = New
+	end
+}).Default = WallHack.Visuals.HeadDotSettings.Enabled
+
+HeadDotsSettings:AddToggle({
+	Name = "Filled",
+	Value = WallHack.Visuals.HeadDotSettings.Filled,
+	Callback = function(New, Old)
+		WallHack.Visuals.HeadDotSettings.Filled = New
+	end
+}).Default = WallHack.Visuals.HeadDotSettings.Filled
+
+HeadDotsSettings:AddSlider({
+	Name = "Transparency",
+	Value = WallHack.Visuals.HeadDotSettings.Transparency,
+	Callback = function(New, Old)
+		WallHack.Visuals.HeadDotSettings.Transparency = New
+	end,
+	Min = 0,
+	Max = 1,
+	Decimals = 2
+}).Default = WallHack.Visuals.HeadDotSettings.Transparency
+
+HeadDotsSettings:AddSlider({
+	Name = "Thickness",
+	Value = WallHack.Visuals.HeadDotSettings.Thickness,
+	Callback = function(New, Old)
+		WallHack.Visuals.HeadDotSettings.Thickness = New
+	end,
+	Min = 1,
+	Max = 5
+}).Default = WallHack.Visuals.HeadDotSettings.Thickness
+
+HeadDotsSettings:AddSlider({
+	Name = "Sides",
+	Value = WallHack.Visuals.HeadDotSettings.Sides,
+	Callback = function(New, Old)
+		WallHack.Visuals.HeadDotSettings.Sides = New
+	end,
+	Min = 3,
+	Max = 60
+}).Default = WallHack.Visuals.HeadDotSettings.Sides
+
+HeadDotsSettings:AddColorpicker({
+	Name = "Color",
+	Value = WallHack.Visuals.HeadDotSettings.Color,
+	Callback = function(New, Old)
+		WallHack.Visuals.HeadDotSettings.Color = New
+	end
+}).Default = WallHack.Visuals.HeadDotSettings.Color
+
+HealthBarSettings:AddToggle({
+	Name = "Enabled",
+	Value = WallHack.Visuals.HealthBarSettings.Enabled,
+	Callback = function(New, Old)
+		WallHack.Visuals.HealthBarSettings.Enabled = New
+	end
+}).Default = WallHack.Visuals.HealthBarSettings.Enabled
+
+HealthBarSettings:AddDropdown({
+	Name = "Position",
+	Value = WallHack.Visuals.HealthBarSettings.Type == 1 and "Top" or WallHack.Visuals.HealthBarSettings.Type == 2 and "Bottom" or WallHack.Visuals.HealthBarSettings.Type == 3 and "Left" or "Right",
+	Callback = function(New, Old)
+		WallHack.Visuals.HealthBarSettings.Type = New == "Top" and 1 or New == "Bottom" and 2 or New == "Left" and 3 or 4
+	end,
+	List = {"Top", "Bottom", "Left", "Right"},
+	Nothing = "Left"
+}).Default = WallHack.Visuals.HealthBarSettings.Type == 1 and "Top" or WallHack.Visuals.HealthBarSettings.Type == 2 and "Bottom" or WallHack.Visuals.HealthBarSettings.Type == 3 and "Left" or "Right"
+
+HealthBarSettings:AddSlider({
+	Name = "Transparency",
+	Value = WallHack.Visuals.HealthBarSettings.Transparency,
+	Callback = function(New, Old)
+		WallHack.Visuals.HealthBarSettings.Transparency = New
+	end,
+	Min = 0,
+	Max = 1,
+	Decimals = 2
+}).Default = WallHack.Visuals.HealthBarSettings.Transparency
+
+HealthBarSettings:AddSlider({
+	Name = "Size",
+	Value = WallHack.Visuals.HealthBarSettings.Size,
+	Callback = function(New, Old)
+		WallHack.Visuals.HealthBarSettings.Size = New
+	end,
+	Min = 2,
+	Max = 10
+}).Default = WallHack.Visuals.HealthBarSettings.Size
+
+HealthBarSettings:AddSlider({
+	Name = "Blue",
+	Value = WallHack.Visuals.HealthBarSettings.Blue,
+	Callback = function(New, Old)
+		WallHack.Visuals.HealthBarSettings.Blue = New
+	end,
+	Min = 0,
+	Max = 255
+}).Default = WallHack.Visuals.HealthBarSettings.Blue
+
+HealthBarSettings:AddSlider({
+	Name = "Offset",
+	Value = WallHack.Visuals.HealthBarSettings.Offset,
+	Callback = function(New, Old)
+		WallHack.Visuals.HealthBarSettings.Offset = New
+	end,
+	Min = -30,
+	Max = 30
+}).Default = WallHack.Visuals.HealthBarSettings.Offset
+
+HealthBarSettings:AddColorpicker({
+	Name = "Outline Color",
+	Value = WallHack.Visuals.HealthBarSettings.OutlineColor,
+	Callback = function(New, Old)
+		WallHack.Visuals.HealthBarSettings.OutlineColor = New
+	end
+}).Default = WallHack.Visuals.HealthBarSettings.OutlineColor
+
+--// Crosshair Settings
+
+CrosshairSettings:AddToggle({
+	Name = "Mouse Cursor",
+	Value = UserInputService.MouseIconEnabled,
+	Callback = function(New, Old)
+		UserInputService.MouseIconEnabled = New
+	end
+}).Default = UserInputService.MouseIconEnabled
+
+CrosshairSettings:AddToggle({
+	Name = "Enabled",
+	Value = WallHack.Crosshair.Settings.Enabled,
+	Callback = function(New, Old)
+		WallHack.Crosshair.Settings.Enabled = New
+	end
+}).Default = WallHack.Crosshair.Settings.Enabled
+
+CrosshairSettings:AddColorpicker({
+	Name = "Color",
+	Value = WallHack.Crosshair.Settings.Color,
+	Callback = function(New, Old)
+		WallHack.Crosshair.Settings.Color = New
+	end
+}).Default = WallHack.Crosshair.Settings.Color
+
+CrosshairSettings:AddSlider({
+	Name = "Transparency",
+	Value = WallHack.Crosshair.Settings.Transparency,
+	Callback = function(New, Old)
+		WallHack.Crosshair.Settings.Transparency = New
+	end,
+	Min = 0,
+	Max = 1,
+	Decimals = 2
+}).Default = WallHack.Crosshair.Settings.Transparency
+
+CrosshairSettings:AddSlider({
+	Name = "Size",
+	Value = WallHack.Crosshair.Settings.Size,
+	Callback = function(New, Old)
+		WallHack.Crosshair.Settings.Size = New
+	end,
+	Min = 8,
+	Max = 24
+}).Default = WallHack.Crosshair.Settings.Size
+
+CrosshairSettings:AddSlider({
+	Name = "Thickness",
+	Value = WallHack.Crosshair.Settings.Thickness,
+	Callback = function(New, Old)
+		WallHack.Crosshair.Settings.Thickness = New
+	end,
+	Min = 1,
+	Max = 5
+}).Default = WallHack.Crosshair.Settings.Thickness
+
+CrosshairSettings:AddSlider({
+	Name = "Gap Size",
+	Value = WallHack.Crosshair.Settings.GapSize,
+	Callback = function(New, Old)
+		WallHack.Crosshair.Settings.GapSize = New
+	end,
+	Min = 0,
+	Max = 20
+}).Default = WallHack.Crosshair.Settings.GapSize
+
+CrosshairSettings:AddSlider({
+	Name = "Rotation (Degrees)",
+	Value = WallHack.Crosshair.Settings.Rotation,
+	Callback = function(New, Old)
+		WallHack.Crosshair.Settings.Rotation = New
+	end,
+	Min = -180,
+	Max = 180
+}).Default = WallHack.Crosshair.Settings.Rotation
+
+CrosshairSettings:AddDropdown({
+	Name = "Position",
+	Value = WallHack.Crosshair.Settings.Type == 1 and "Mouse" or "Center",
+	Callback = function(New, Old)
+		WallHack.Crosshair.Settings.Type = New == "Mouse" and 1 or 2
+	end,
+	List = {"Mouse", "Center"},
+	Nothing = "Mouse"
+}).Default = WallHack.Crosshair.Settings.Type == 1 and "Mouse" or "Center"
+
+CrosshairSettings_CenterDot:AddToggle({
+	Name = "Center Dot",
+	Value = WallHack.Crosshair.Settings.CenterDot,
+	Callback = function(New, Old)
+		WallHack.Crosshair.Settings.CenterDot = New
+	end
+}).Default = WallHack.Crosshair.Settings.CenterDot
+
+CrosshairSettings_CenterDot:AddColorpicker({
+	Name = "Center Dot Color",
+	Value = WallHack.Crosshair.Settings.CenterDotColor,
+	Callback = function(New, Old)
+		WallHack.Crosshair.Settings.CenterDotColor = New
+	end
+}).Default = WallHack.Crosshair.Settings.CenterDotColor
+
+CrosshairSettings_CenterDot:AddSlider({
+	Name = "Center Dot Size",
+	Value = WallHack.Crosshair.Settings.CenterDotSize,
+	Callback = function(New, Old)
+		WallHack.Crosshair.Settings.CenterDotSize = New
+	end,
+	Min = 1,
+	Max = 6
+}).Default = WallHack.Crosshair.Settings.CenterDotSize
+
+CrosshairSettings_CenterDot:AddSlider({
+	Name = "Center Dot Transparency",
+	Value = WallHack.Crosshair.Settings.CenterDotTransparency,
+	Callback = function(New, Old)
+		WallHack.Crosshair.Settings.CenterDotTransparency = New
+	end,
+	Min = 0,
+	Max = 1,
+	Decimals = 2
+}).Default = WallHack.Crosshair.Settings.CenterDotTransparency
+
+CrosshairSettings_CenterDot:AddToggle({
+	Name = "Center Dot Filled",
+	Value = WallHack.Crosshair.Settings.CenterDotFilled,
+	Callback = function(New, Old)
+		WallHack.Crosshair.Settings.CenterDotFilled = New
+	end
+}).Default = WallHack.Crosshair.Settings.CenterDotFilled
+
+--// Functions / Functions
+
+FunctionsSection:AddButton({
+	Name = "Reset Settings",
+	Callback = function()
+		Aimbot.Functions:ResetSettings()
+		WallHack.Functions:ResetSettings()
+		Library.ResetAll()
+	end
+})
+
+FunctionsSection:AddButton({
+	Name = "Restart",
+	Callback = function()
+		Aimbot.Functions:Restart()
+		WallHack.Functions:Restart()
+	end
+})
+
+FunctionsSection:AddButton({
+	Name = "Exit",
+	Callback = Library.Unload,
+})
